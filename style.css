@@ -1,0 +1,47 @@
+.header,
+.sidebar,
+.content,
+.footer {
+    border: 1px solid #000000;
+    padding: 6px;
+}
+
+.logo {
+    font-weight: bold;
+    background: #ffffff;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sidebar,
+.content,
+.footer {
+    margin-top: -1px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    width: 200px; 
+}
+
+.list {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-position: outside;
+}
+
+.list a {
+    color: #000000;
+}
+
+.content {
+    width: calc(100% - 199px);
+    margin-left: -1px; 
+}
